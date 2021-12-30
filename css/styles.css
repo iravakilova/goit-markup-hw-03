@@ -194,13 +194,16 @@ img {
   letter-spacing: var(--let-sp);
   margin-bottom: 50px;
 }
+.team-descr {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .team-name {
   font-weight: 500;
   font-size: var(--font-size-secondary);
   line-height: calc(19 / 16);
   text-align: center;
   letter-spacing: var(--let-sp);
-  margin-top: 30px;
 }
 .team-position {
   font-size: var(--font-size-secondary);
@@ -209,7 +212,6 @@ img {
   letter-spacing: var(--let-sp);
   color: var(--color-text-secondary);
   margin-top: 10px;
-  margin-bottom: 30px;
 }
 
 /* portfolio */
@@ -278,8 +280,6 @@ img {
 
 footer {
   background-color: var(--bg-secondary);
-}
-.footer-box {
   padding-top: 60px;
   padding-bottom: 60px;
 }
